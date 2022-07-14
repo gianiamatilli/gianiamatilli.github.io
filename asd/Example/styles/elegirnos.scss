@@ -1,0 +1,35 @@
+@import "_variables.scss";
+
+.elegirnos {
+    .container-fluid {
+        background-color: $whitish-color;
+    }
+
+    .razones {
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        height: 370px;
+        width: 300px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        background-color: $light-color;
+
+        h6 {
+            text-transform: uppercase;
+
+        }
+
+        img {
+            height: 230px;
+        }
+
+        p {
+            color: $text-black-color;
+        }
+    }
+}
